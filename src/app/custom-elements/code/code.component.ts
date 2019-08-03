@@ -187,7 +187,7 @@ export class CodeComponent implements OnChanges {
       code: this.codeText,
       language: this.language,
       dependencies: {
-        // rxjs: {}
+        rxjs: ''
       },
       html: this.getHtmlFromCode(this.codeText)
     });

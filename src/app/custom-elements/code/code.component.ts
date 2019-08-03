@@ -5,7 +5,7 @@ import { CopierService } from 'app/shared/copier.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { tap } from 'rxjs/operators';
 import { StackblitzService } from 'app/shared/stackblitz.service';
-import version from '../../../../tools/stackblitz/rxjs.version';
+// import version from '../../../../tools/stackblitz/rxjs.version';
 
 /**
  * If linenums is not set, this is the default maximum number of lines that
@@ -187,7 +187,7 @@ export class CodeComponent implements OnChanges {
       code: this.codeText,
       language: this.language,
       dependencies: {
-        rxjs: version
+        // rxjs: {}
       },
       html: this.getHtmlFromCode(this.codeText)
     });

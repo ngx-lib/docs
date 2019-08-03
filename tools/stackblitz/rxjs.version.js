@@ -3,4 +3,4 @@
 // (Since said package.json is outside of this TypeScript project, it's not
 // available for a direct TypeScript import).
 
-module.exports = require('../../../package.json').version;
+// module.exports = require('../../../package.json').version;
